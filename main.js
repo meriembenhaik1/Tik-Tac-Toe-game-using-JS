@@ -31,6 +31,7 @@ function winner()
 {
 for(let i=1; i<10 ;i++){
    square[i]= document.getElementById('item'+i).innerHTML ;
+}
    if(square[1]== square[2] && square[2]==square[3] && square[1] !=''){
     end(1,2,3)
    }
@@ -55,6 +56,4 @@ for(let i=1; i<10 ;i++){
                            else if(square[3]== square[5] && square[5]==square[7] && square[7] !=''){
                            end(3,5,7)
                                }
-}
-
 }
